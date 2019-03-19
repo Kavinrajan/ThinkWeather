@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_citys1"
+            style="@style/statcText"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorBlack"
+            android:textAlignment="center"
+            tools:text="City"
+            android:padding="@dimen/title_padding"/>
+        <TextView
+            android:id="@+id/tv_dates1"
+            style="@style/statcText"
+            tools:text="@string/slide_1_title" />
+        <TextView
+            android:id="@+id/tv_temps1"
+            style="@style/statcText"
+            tools:text="@string/slide_1_title" />
+        <TextView
+            android:id="@+id/tv_winds1"
+            style="@style/statcText"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            tools:text="@string/slide_1_desc" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
